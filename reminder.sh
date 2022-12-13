@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"message": "Reminder: doe suggesties voor nieuwe boeken!!!!!", "number": "+316secretnumber", "recipients": ["group.myGroupIdFromSignalApi"]}' 'http://127.0.0.1:8080/v2/send'
