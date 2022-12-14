@@ -78,6 +78,9 @@ Resources:
             chkconfig docker on
             # docker pull aws_account_id.dkr.ecr.region.amazonaws.com/container
             # docker run --rm aws_account_id.dkr.ecr.region.amazonaws.com/container
+            wget https://raw.githubusercontent.com/Sasafrass/signal-reminder/master/reminder.sh
+            chmod +x reminder.sh
+            cp reminder.sh /home/ec2-user/reminder.sh
   InstanceSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
