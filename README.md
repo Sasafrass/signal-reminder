@@ -22,4 +22,4 @@ Yes this is going to be a terrible `how to run` because I'm lazy rn.
     * `nano ~/.bash_profile `
     * `export VISUAL="nano"`
     * `source ~/.bash_profile `
-    * .. and then running crontab -e should open it with nano
+    * .. and then running `crontab -e` should open it with nano
